@@ -1,0 +1,21 @@
+.containerAside3{
+    border: 1px solid goldenrod;
+    display: flex;
+    height: 80vh;
+}
+.titleAside3{
+    position: absolute;
+    font-size: 500%;
+    font-family: "Tungsten", sans-serif;
+    border: 1px solid red;
+    display: flex;
+    height: 30vh;
+    width: 40vw;
+    top: 290%;
+    left: 6%;
+    color: #fff;
+}
+.imgCode{
+    position: relative;
+    width: 100%;
+}

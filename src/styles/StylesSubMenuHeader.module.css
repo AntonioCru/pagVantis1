@@ -1,0 +1,58 @@
+.mainContent{
+    /* border: 1px solid gray; */
+    grid-column: 5/span 3;
+}
+.list {
+    /* border: 1px solid red; */
+    /* padding: 0; */
+    /* width: auto; */
+    text-align: end;
+  }
+  .listItem {
+    display: inline-block;
+    margin: 0 30px;
+  }
+  .buttonHeader {
+      border: none;
+      background-color: rgb(80, 85, 229);
+      padding: 12px 40px;
+      border-radius: 6px;
+  }
+  .menuSolution{
+      display: flex;
+      /* border: 1px solid orchid; */
+      /* display: grid;
+      grid-template-columns: repeat(3, 27%); */
+      width: 50%;
+      position: absolute;
+      justify-content: center
+      
+  }
+  .subMenuSolutions{
+    /* grid-column: 2/span 1; */
+    /* border: 1px solid brown; */
+    /* display: flex; */
+    position: relative;
+    right: 5%;
+    visibility: hidden;
+  }
+  .subMenuSolutionsUl{
+      /* border: 1px solid greenyellow; */
+      text-align: left;
+      /* width: 20vw; */
+      right: 100px;
+  }
+  .subMenuSolutionsLi{
+      list-style: none;
+  }
+  .listItem:hover .subMenuSolutions{
+      /* content: "";
+    background-color: rgb(0, 0, 0 / 70%);
+    transition: trasnform 6.s cubic-bezier(0.75, .82, .165, 1);
+    transform: scale(0, 1);
+    transform-origin: right top; */
+
+    border-bottom: 3px solid black;
+    transition: trasnform 6.s cubic-bezier(0.75, .82, .165, 1);
+    visibility: visible;
+  }

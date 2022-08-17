@@ -1,0 +1,50 @@
+
+.containerAside2{
+    display: grid;
+    grid-template-columns: repeat(11, minmax(100px, 1fr));
+    grid-template-rows: repeat(10, minmax(10px, 100px));
+}
+.containerAside2 h2{
+    font-size: 400%;
+    font-family: "Tungsten", sans-serif;
+}
+.titleASide1{
+    grid-column: 3/8;
+    grid-row: 2/3;
+}
+.subtitleASide1{
+    grid-column: 3/5;
+    grid-row: 3/4; 
+    font-size: 140%;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.titleASide2{
+    grid-column: 6/11;
+    grid-row: 4/5;
+}
+.subtitleASide2{
+    grid-column: 6/8;
+    grid-row: 5/6; 
+    font-size: 140%;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.titleASide3{
+    grid-column: 3/8;
+    grid-row: 6/7;
+}
+.subtitleASide3{
+    grid-column: 3/5;
+    grid-row: 7/8; 
+    font-size: 140%;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.titleASide4{
+    grid-column: 6/11;
+    grid-row: 8/9;
+}
+.subtitleASide4{
+    grid-column: 6/8;
+    grid-row: 9/10; 
+    font-size: 140%;
+    font-family: 'Saira Condensed', sans-serif;
+}
