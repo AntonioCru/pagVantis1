@@ -1,11 +1,12 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Accordion from 'react-bootstrap/Accordion';
+import styles from '../styles/StylesAside4.module.css';
 
 export const Aside4 = () => {
   return (
-      <div>
-    <Accordion defaultActiveKey='0'>
+      <div className={styles.ContainerAside4}>
+    <Accordion defaultActiveKey='0' className={styles.acordion}>
         <Accordion.Item eventKey='0'>
             <Accordion.Header>Analisis de Negocio</Accordion.Header>
             <Accordion.Body>
